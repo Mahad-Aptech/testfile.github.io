@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            font-family: Text;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        @font-face {
+            font-family: Text;
+            src: url(Timeburner-xJB8.ttf);
+        }
+        body{
+            background: linear-gradient(40deg,#50f8e8, #5bb0f1, #6465fc);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+        
+        }
+        .center{
+            height: 500px;
+            width: 400px;
+            background-color: rgb(247, 247, 247,0.3);
+            margin-left: 35%;
+            border-radius: 25px;
+            margin-top: 55px;
+            margin-bottom: 90px;        
+        }
+        img{
+            height: 125px;
+            margin-top: 50px;
+        }
+        .form{
+            height: 270px;
+            width: 350px;
+            background-color: #c9dae9;
+            border-radius: 25px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+        input{
+            border-radius: 10px;
+            border: none;
+            background-color: antiquewhite;
+            height: 18px;
+            width: 190px;
+            padding: 3px;
+            margin-left: 10px;
+        }
+        #Password{
+            margin-left: 12px;
+        }
+        #log{
+            margin-top: 20px;
+            margin-left: 20px;
+            height: 36px;
+            width: 75px;
+            background: linear-gradient(-40deg,#53bbb1, #5bb0f1, #6465fc);
+            color: white;
+            font-weight: bolder;
+            border: none;
+            border-radius: 20px;
+            border-color: aliceblue;
+            cursor: pointer;
+        }
+        #can{
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            height: 36px;
+            width: 75px;
+            background: linear-gradient(40deg,#48ccbf, #5bb0f1, #6465fc);
+            color: white;
+            font-weight: bolder;
+            border: none;
+            border-radius: 20px;
+            border-color: aliceblue;
+            cursor:pointer;
+        }
+        #log:hover{
+            height: 46px;
+            width: 86px;
+            transition: all 0.2s;
+        }
+        #can:hover{
+            height: 46px;
+            width: 86px;
+            transition: all 0.2s;
+        }
+        #Remember{
+            margin: 10px;
+
+        }
+        #cb{
+            margin-top: 10px;
+            margin-right: 3px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div class="center">
+        <center>
+        <div class="img"><img src="Windows-8-Login-256.png"> </div>
+        <div class="form">
+
+            <form>
+                <BR><BR>
+                <label for="Username">Username</label>
+                <input type="text" id="Username"><BR><BR>
+
+                <label for="Password">Password</label>
+                <input type="password" id="Password"><br>
+
+                <button id="log"> Login </button>
+                <button id="can"> Cancel </button><br>
+
+
+
+                <p>Forgot <a href="mailto:abc@gmail.com">Password</a>?</p>
+           
+        </div>
+        </center>
+    </div>
+</body>
+</html>
